@@ -19,12 +19,12 @@ fun main(args: Array<String>) {
 class HelloWorldController {
 	@GetMapping
 	fun hello(): String {
-		return "Hello World!"
+		return "Hello World Implantado"
 	}
 
 	@GetMapping("2")
 	fun helloWorld2(): String {
-		return "Olá Mundo 2!"
+		return "Olá Mundo BR"
 	}
 }
 
